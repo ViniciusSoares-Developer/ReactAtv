@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function HomeNovo() {
+const nome = 'abc'
+
+export default function Home() {
   return (
     <main>
-      <Link href="/dashboard">TEste</Link>
+      <Link href="/">{nome}</Link>
     </main>
   )
 }
